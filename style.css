@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headerarea {
+    background: blue;
+    overflow: hidden;
+}
+
+.h20 {
+    width: 20%;
+    float: left;
+}
+
+.h80 {
+    width: 80%;
+    float: left;
+}
+
+.headform {
+    overflow: hidden;
+    float: right;
+    padding: 10px;
+}
+
+.emailarea {
+    float: left;
+}
+
+.passwordarea {
+    float: left;
+    margin-left: 5px;
+}
+
+.logarea {
+    float: left;
+    margin: 18px 5px 5px 5px;
+}
+
+.headform>label,
+input {
+    display: block;
+    /* outline: none; */
+    /* border: none; */
+}
+
+
+
+
+.mainarea {
+    overflow: hidden;
+    padding: 30px;
+}
+
+
+.w40 {
+    width: 40%;
+    float: left;
+}
+
+.w40content img {
+    margin-top: 30px;
+}
+
+.w60 {
+    width: 60%;
+    float: left;
+}
+
+.w60content {
+    width: 80%;
+    margin: auto;
+}
+
+.w60content h1,
+h4 {
+    margin-bottom: 15px;
+}
+
+
+/* important/////////////////////////////////////////// */
+
+.bodyform {
+    overflow: hidden;
+    padding: 2px;
+}
+
+.bodyform .name1 {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.bodyform .name2 {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+
+.bodyform input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 5px;
+    outline: none;
+    border: 1px solid rgb(200, 197, 197);
+    border-radius: 5px;
+}
+
+/*  */
+
+
+
+
+.birthdayarea {
+    overflow: hidden;
+}
+
+.birth1 {
+    float: left;
+}
+
+.birth2 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.radioarea {
+    margin: 10px 0 10px -10px;
+}
+
+.radioarea input[type='radio'] {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.create {
+    background: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px 0 10px;
+    color: white;
+}
+
+
+.celebrity {
+    text-decoration: none;
+}
